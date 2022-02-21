@@ -8,11 +8,28 @@ function updateRate()
 }
 
 
+function validate()
+{
+
+
+	var principal = document.getElementById("principal").value;
+
+
+    	if(principal<=0)
+    	{
+		
+		alert("Enter a positive number");
+        
+    	}
+
+
+}
+
+
+
 function compute()
 {
    
-
-
     var principal = document.getElementById("principal").value;
 
     var rate = document.getElementById("rate").value;
